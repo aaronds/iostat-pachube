@@ -1,3 +1,5 @@
 A quick and dirty tool to post the ouput of iostat to pachube.
 
 Usage node iostat-pachube config.json
+
+See config-example.json
