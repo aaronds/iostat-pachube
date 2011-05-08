@@ -1,0 +1,13 @@
+{
+	"feed" : {
+		"apiKey" : "",
+		"feedId" : 1,
+		"interval" : 10,
+		"update" : 10000
+	},
+	"device" : {
+		"sda" : {
+			"await" : 0
+		}
+	}
+}
