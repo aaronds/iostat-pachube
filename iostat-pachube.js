@@ -107,8 +107,6 @@ function updatePachube(config){
 
 	var requestLines = [];
 
-	console.log(config);
-
 	if(resultCount > 0){
 
 		for(var devName in devices){
@@ -136,7 +134,6 @@ function updatePachube(config){
 			if(err){
 				console.log(err);
 			}
-			console.log(res.headers);
 			setTimeout(updatePachube,config.feed.update,config);
 		});
 	}
